@@ -1,7 +1,6 @@
-import express from 'express';
+import app from './app';
 
-const PORT = 3000;
-const app =  express();
+const PORT = 8080;
 
 app.listen(PORT);
 
